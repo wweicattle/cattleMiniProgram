@@ -1,0 +1,5 @@
+<!--index.wxml-->
+ <text class="yi">
+ hello,word!
+ </text>
+<button>nihao</button>  
