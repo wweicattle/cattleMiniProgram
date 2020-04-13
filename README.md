@@ -8,8 +8,10 @@
 * WXSS&WXML&WXS
 * 网络，路由等常见API
 ### 项目效果：
-项目效果：
-![1](https://github.com/wweicattle/cattleMiniProgram/blob/master/assets/itemphoto/1.png)![2](https://github.com/wweicattle/cattleMiniProgram/blob/master/assets/itemphoto/2.png)  
-![3](https://github.com/wweicattle/cattleMiniProgram/blob/master/assets/itemphoto/3.png)![4](https://github.com/wweicattle/cattleMiniProgram/blob/master/assets/itemphoto/4.png)  
-![5](https://github.com/wweicattle/cattleMiniProgram/blob/master/assets/itemphoto/5.png)
+项目效果：  
+<img src="https://github.com/wweicattle/cattleMiniProgram/blob/master/assets/itemphoto/1.png" width="375"><img src="https://github.com/wweicattle/cattleMiniProgram/blob/master/assets/itemphoto/2.png" width="375">  
+<img src="https://github.com/wweicattle/cattleMiniProgram/blob/master/assets/itemphoto/3.png" width="375"><img src="https://github.com/wweicattle/cattleMiniProgram/blob/master/assets/itemphoto/4.png" width="375">  
+<img src="https://github.com/wweicattle/cattleMiniProgram/blob/master/assets/itemphoto/5.png" width="375">
+
+
 
