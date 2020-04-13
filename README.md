@@ -9,9 +9,9 @@
 * 网络，路由等常见API
 ### 项目效果：
 项目效果：  
-<img src="https://github.com/wweicattle/cattleMiniProgram/blob/master/assets/itemphoto/1.png" width="375"><img src="https://github.com/wweicattle/cattleMiniProgram/blob/master/assets/itemphoto/2.png" width="375">  
-<img src="https://github.com/wweicattle/cattleMiniProgram/blob/master/assets/itemphoto/3.png" width="375"><img src="https://github.com/wweicattle/cattleMiniProgram/blob/master/assets/itemphoto/4.png" width="375">  
-<img src="https://github.com/wweicattle/cattleMiniProgram/blob/master/assets/itemphoto/5.png" width="375">
+<img src="https://github.com/wweicattle/cattleMiniProgram/blob/master/assets/itemphoto/1.png" width="200"><img src="https://github.com/wweicattle/cattleMiniProgram/blob/master/assets/itemphoto/2.png" width="200">  
+<img src="https://github.com/wweicattle/cattleMiniProgram/blob/master/assets/itemphoto/3.png" width="200"><img src="https://github.com/wweicattle/cattleMiniProgram/blob/master/assets/itemphoto/4.png" width="200">  
+<img src="https://github.com/wweicattle/cattleMiniProgram/blob/master/assets/itemphoto/5.png" width="200">
 
 
 
