@@ -9,7 +9,7 @@
 }
 
 .active {
-  color: #f55777;
+  color: #f40;
   padding-bottom: 10rpx;
-  border-bottom: 7rpx solid #f55777;
+  border-bottom: 7rpx solid #f40;
 }

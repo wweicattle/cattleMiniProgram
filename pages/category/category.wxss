@@ -19,8 +19,8 @@
 
 .cate-contain .cate-item .active {
     background: #fff;
-    color: #f55777;
-    border-left: 10rpx solid #f55777;
+    color: #f40;
+    border-left: 10rpx solid #f40;
 }
 
 .cate-contain .cate-detail {

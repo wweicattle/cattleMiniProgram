@@ -2,7 +2,7 @@
 .header {
   position: relative;
   display: flex;
-  background: #ff5777;
+  background: #F40;
   height: 170rpx;
   padding: 12rpx 30rpx;
   color: #fff;

@@ -24,7 +24,7 @@
 }
 
 .good-icon .active {
-  background: #f55777;
+  background: #f40;
 }
 
 .good-icon .icon .weui-icon {
@@ -60,7 +60,7 @@
 }
 
 .contain .price-tit .price .rel {
-  color: #f55777;
+  color: #f40;
 }
 
 .contain .price-tit .price .num {
@@ -83,7 +83,7 @@
 .select-All .btn{
   height: 100%;
   color: #fff;
-  background:#f55777;
+  background:#f40;
 }
 .select-All .total-pri{
 font-size: 32rpx;
