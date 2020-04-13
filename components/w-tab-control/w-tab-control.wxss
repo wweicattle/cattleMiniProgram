@@ -1,0 +1,15 @@
+/* components/w-tab-control/w-tab-control.wxss */
+.contain {
+  display: flex;
+  margin-bottom: 20rpx;
+}
+.contain-item {
+  flex: 1;
+  text-align: center;
+}
+
+.active {
+  color: #f55777;
+  padding-bottom: 10rpx;
+  border-bottom: 7rpx solid #f55777;
+}

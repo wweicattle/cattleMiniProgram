@@ -1,0 +1,9 @@
+<!-- 推荐列表 -->
+<view class="contain">
+	<block wx:for="{{list}}" wx:key="index" >
+		<view class="contain-item">
+			<image src="{{item.image}}" bind:load="imagLoad" class="image"></image>
+			<view class="view">{{item.title}}</view>
+		</view>
+	</block>
+</view>

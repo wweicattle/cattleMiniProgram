@@ -1,0 +1,20 @@
+/* pages/index/indexCon/recommends.wxss */
+.contain{
+  display: flex;
+  padding-bottom: 30rpx;
+  border-bottom: 14rpx solid #eee;
+}
+.contain-item{
+  margin-top: 20rpx;
+  flex: 1;
+  text-align: center;
+}
+.contain-item .image{
+  width: 140rpx;
+  height: 140rpx;
+}
+.contain-item .view{
+  margin-top: 20rpx;
+  font-size: 34rpx;
+  color: #333;
+}

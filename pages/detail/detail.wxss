@@ -1,0 +1,228 @@
+/* pages/detail/detail.wxss */
+/* 重新给轮播图加入高度 */
+.scroll {
+  height:100vh;
+  overflow: hidden;
+}
+
+.putCss {
+  height: 700rpx;
+}
+
+.introduce-good {
+  margin-left: 8rpx;
+}
+
+.introduce-good .title {
+  color: rgb(105, 102, 102);
+  font-size: 36rpx;
+  margin: 10rpx;
+}
+
+.introduce-good .newprice {
+  color: #f55777;
+}
+
+.introduce-good .oldprice {
+  padding-left: 10rpx;
+  font-size: 30rpx;
+  text-decoration: line-through;
+  color: #999;
+}
+
+.introduce-good .discount {
+  border-radius: 10rpx;
+  margin-left: 15rpx;
+  vertical-align: 15rpx;
+  font-size: 30rpx;
+  color: #fff;
+  background: #f55777;
+}
+
+.introduce-good .sell {
+  display: flex;
+  justify-content: space-between;
+}
+
+.introduce-good .frame {
+  border-top: 6rpx solid #f2f2f2;
+}
+
+.introduce-good .sell-item {
+  margin-top: 10rpx;
+  color: #999;
+  font-size: 30rpx;
+  padding-bottom: 15rpx;
+}
+
+.introduce-good .delever {
+  margin: 15rpx 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 23rpx;
+  color: #999;
+  border-bottom: 12rpx solid #f2f2f2;
+  padding-bottom: 40rpx;
+
+}
+
+.delever .delever-icon {
+  padding-left: 6rpx;
+  width: 30rpx;
+  height: 30rpx;
+  vertical-align: -3rpx;
+}
+
+.sell-shop .good-sell {
+  display: flex;
+  align-items: center;
+  margin: 30rpx 0;
+  color: #777;
+}
+
+.sell-shop .good-sell .image {
+  padding: 0 20rpx 0 30rpx;
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.sell-comment {
+  display: flex;
+  font-size: 32rpx;
+  height: 140rpx;
+  text-align: center;
+}
+
+.sell-comment .counts {
+  width: 50%;
+  display: flex;
+  color: #777;
+  justify-content: space-evenly;
+  border-right: 2rpx solid #777;
+
+}
+
+.sell-comment .describe {
+  font-size: 26rpx;
+  color: #777;
+  margin: 0 auto;
+}
+
+.sell-comment .describe .describe-item {
+  padding-bottom: 9rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sell-comment .describe .describe-item .color {
+  color: rgb(84, 185, 84);
+}
+
+.sell-comment .describe .describe-item .center {
+  padding: 0 20rpx;
+}
+
+.sell-comment .describe .describe-item .deepcolor {
+  color: #f55777;
+}
+
+.sell-shop .visit {
+  margin: 40rpx 0;
+  border-bottom: 12rpx solid #f2f2f2;
+}
+
+.sell-shop .visit .btn {
+  font-size: 30rpx;
+  width: 320rpx;
+  text-align: center;
+}
+
+.intro-contain {
+  color: #999;
+  font-size: 30rpx;
+  border-bottom: 12rpx solid #f2f2f2;
+}
+.intro-contain .image{
+  width: 100%;
+}
+
+.sizes-contain {
+  padding: 0 20rpx;
+  padding-bottom: 70rpx;
+  border-bottom: 12rpx solid #f2f2f2;
+}
+
+.sizes-contain .size-intro {
+  font-size: 34rpx;
+  border-bottom: 4rpx solid #f2f2f2;
+  text-align: left;
+  display: flex;
+  color: #999;
+}
+
+.sizes-contain .size-intro .line {
+  padding: 15rpx 0;
+  width: 25%;
+}
+
+.sizes-contain .sections {
+  display: flex;
+  font-size: 34rpx;
+  color: #999;
+  border-bottom: 4rpx solid #f2f2f2;
+}
+
+.sizes-contain .sections .goods-sec {
+  width: 25%;
+}
+
+.sizes-contain .sections .sec-val {
+  width: 75%;
+  color: #f55777;
+}
+
+.comment-info {
+  padding: 0 20rpx;
+  border-bottom: 12rpx solid #f2f2f2;
+}
+
+.comment-info .header {
+  display: flex;
+  font-size: 34rpx;
+  justify-content: space-between;
+  color: #999;
+  border-bottom: 4rpx solid #f2f2f2;
+  padding: 20rpx 0;
+}
+
+.comment-info .user {
+  padding-top: 20rpx;
+  height: 120rpx;
+  display: flex;
+  line-height: 120rpx;
+  font-size: 30rpx;
+  color: #999;
+}
+
+.comment-info .user .image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  padding-right: 10rpx;
+}
+
+.comment-info .comment {
+  font-size: 26rpx;
+  color: #999;
+}
+
+.comment-info .other-info {
+  display: flex;
+  font-size: 25rpx;
+  color: #999;
+  padding: 20rpx 0;
+}
+
+.comment-info .other-info .time {
+  padding-right: 10rpx;
+}

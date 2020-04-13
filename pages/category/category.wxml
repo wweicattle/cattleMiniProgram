@@ -1,0 +1,26 @@
+<!--pages/category/category.wxml-->
+<view class="cate-contain">
+	<scroll-view class="scroll" scroll-y>
+		<view class="cate-item">
+			<block wx:for="{{cateList}}">
+				<view class="item-color {{item.maitKey==mailkey?'active':''}}" bind:tap="clickCate" data-maitKey="{{item.maitKey}}">
+					<text>
+					{{item.title}}
+					</text>
+				</view>
+			</block>
+		</view>
+	</scroll-view>
+	<view class="cate-detail">
+		<block wx:for="{{Subcategorys}}">
+			<view class="cate-items" bind:tap="clickDetatil">
+				<view class="item-pho">
+					<image src="{{item.image}}" class="image"></image>
+				</view>
+				<view>
+					<text class="item-title">{{item.title}}</text>
+				</view>
+			</view>
+		</block>
+	</view>
+</view>

@@ -1,0 +1,6 @@
+<view class='profile'>
+  <w-header/>
+  <w-info/>
+  <w-list-view infos="{{orderList}}"/>
+  <w-list-view infos="{{serviceList}}"/>
+</view>

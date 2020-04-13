@@ -1,3 +1,11 @@
-.yi{
-  color: red;
+.popular-img image {
+  width: 100%;
+}
+
+.fixed {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  width: 100%;
+  background: #fff;
 }

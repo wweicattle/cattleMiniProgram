@@ -1,0 +1,95 @@
+/* pages/cart/cart.wxss */
+.contain {
+  display: flex;
+  padding: 22rpx 10rpx;
+  box-sizing: border-box;
+  border-bottom: 3rpx solid #eee;
+}
+
+.contain .good-pho .img {
+  border-radius: 10px;
+  width: 190rpx;
+  height: 260rpx;
+  padding: 0 10rpx;
+}
+
+.good-icon {
+  margin-top: 50px;
+}
+
+.good-icon .icon {
+  border-radius: 50%;
+  border: 4rpx solid #999;
+  padding-right: 6rpx
+}
+
+.good-icon .active {
+  background: #f55777;
+}
+
+.good-icon .icon .weui-icon {
+  padding-top: -12rpx;
+}
+
+.contain .price-tit {
+  width: 420rpx;
+  padding-left: 24rpx;
+}
+
+.contain .price-tit .good-name {
+  white-space: nowrap;
+  font-size: 34rpx;
+  font-weight: 700;
+  color: #333;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.contain .price-tit .good-intro {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 28rpx;
+  margin-top: 20rpx
+}
+
+.contain .price-tit .price {
+  display: flex;
+  margin-top: 40rpx;
+  justify-content: space-between;
+}
+
+.contain .price-tit .price .rel {
+  color: #f55777;
+}
+
+.contain .price-tit .price .num {
+  color: #999;
+}
+.select-All .good-icon{
+  margin: 0;
+}
+.select-All{
+  padding: 0 20rpx;
+  position: fixed;
+  width: 100%;
+  bottom:0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 88rpx;
+  background:#eee;
+}
+.select-All .btn{
+  height: 100%;
+  color: #fff;
+  background:#f55777;
+}
+.select-All .total-pri{
+font-size: 32rpx;
+}
+.select-All .icon-name
+{
+  color: #999;
+  font-size: 24rpx;
+}

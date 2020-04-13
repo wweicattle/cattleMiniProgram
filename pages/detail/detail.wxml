@@ -1,0 +1,146 @@
+<scroll-view scroll-y class="scroll" enable-back-to-top >
+	<w-swiper list="{{bannerImag}}" addclass="putCss"></w-swiper>
+
+	<!-- 商品价格，快递 -->
+	<view class="introduce-good">
+		<view class="title">
+			{{baseInfo.title}}
+		</view>
+		<view class="price">
+			<text class="newprice">￥{{baseInfo.realPrice}}</text>
+			<text class="oldprice">{{baseInfo.oldPrice}}</text>
+			<text class="discount">{{baseInfo.discount}}</text>
+		</view>
+		<view class="sell">
+			<block wx:for="{{baseInfo.columns}}" wx:key="index">
+				<view class="sell-item">{{item}}</view>
+			</block>
+		</view>
+		<view class="frame"></view>
+		<view class="delever">
+			<block wx:for="{{baseInfo.services}}" wx:key="index">
+				<view class="delever-item" wx:if="{{index!==0}}" wx:key="index">
+					<view>
+						<image src="{{item.icon}}" class="delever-icon"></image>
+						<text>{{item.name}}</text>
+					</view>
+				</view>
+
+			</block>
+		</view>
+	</view>
+
+	<!-- 商品店铺人品 -->
+	<view class="sell-shop">
+		<view class="good-sell">
+			<image src="{{shopInfo.logo}}" class="image"></image>
+			<text>{{shopInfo.name}}</text>
+		</view>
+
+		<view class="sell-comment">
+			<view class="counts">
+				<view class="sell-counts">
+					<view>{{shopInfo.sells}}</view>
+					<view>总销售</view>
+				</view>
+				<view class="good-counts">
+					<view>{{shopInfo.goodsCount}}</view>
+					<view>全部宝贝</view>
+				</view>
+			</view>
+
+			<view class="describe">
+				<block wx:for="{{shopInfo.score}}" wx:key="index">
+					<view class="describe-item">
+						<text>{{item.name}}</text>
+						<text class="color center">{{item.score}}</text>
+						<text class="{{item.isBetter?'deepcolor':'color'}}">{{item.isBetter?'高':'低'}}</text>
+					</view>
+				</block>
+			</view>
+		</view>
+
+		<view class="visit">
+			<view class="click-sells">
+				<button class="btn">进店逛逛</button>
+			</view>
+		</view>
+
+	</view>
+
+	<!-- 商品照片 -->
+	<view class="intro-contain">
+		<view class="intro-tilte">
+			<view>-------------</view>
+			<text>{{detailInfo.desc}}</text>
+			<view>-------------</view>
+		</view>
+		<view class="intro-pho">
+			<block wx:for="{{detailInfo.detailImage}}" wx:key="index">
+				<view class="intro-begin">
+					{{item.key}}
+				</view>
+				<block wx:for="{{item.list}}" wx:key="index">
+					<image src="{{item}}" mode="widthFix" class="image"></image>
+				</block>
+			</block>
+		</view>
+	</view>
+
+	<!-- 商品尺寸详情 -->
+	<view class="sizes-contain">
+		<block wx:for="{{paramInfo.sizes}}" wx:key="index">
+			<block wx:for="{{item}}" wx:key="index">
+				<view class="size-intro">
+					<text class="line">{{item[0]}}</text>
+					<text class="line">{{item[1]}}</text>
+					<text class="line">{{item[2]}}</text>
+					<text class="line">{{item[3]}}</text>
+					<text class="line">{{item[4]}}</text>
+				</view>
+			</block>
+		</block>
+		<block wx:for="{{paramInfo.infos}}" wx:key="index">
+			<view class="sections">
+				<text class="goods-sec">
+				{{item.key}}
+				</text>
+				<text class="sec-val">
+				{{item.value}}
+				</text>
+			</view>
+		</block>
+	</view>
+
+	<!-- 用户评价 -->
+	<view class='comment-info'>
+		<view class='header'>
+			<view>用户评价</view>
+			<view>更多 >></view>
+		</view>
+		<view class='user'>
+			<image src="{{commentInfo.user.avatar}}" class="image" />
+			<text>{{commentInfo.user.uname}}</text>
+		</view>
+		<view class='comment'>
+			{{commentInfo.content}}
+		</view>
+		<view class='other-info'>
+			<view class='time'>{{commentInfo.created}}</view>
+			<view class='style'>{{commentInfo.style}}</view>
+		</view>
+		<view class='picture'>
+			<block wx:for="{{commentInfo.images}}" wx:key="index">
+				<image src="{{item}}" mode="widthFix" />
+			</block>
+		</view>
+	</view>
+
+	<!-- 推荐商品显示 -->
+	<w-goods list="{{Recommends}}">
+	</w-goods>
+</scroll-view>
+
+<!-- 底部导航栏 -->
+<w-bottom-bar bind:addcart="onAddCart">
+</w-bottom-bar>

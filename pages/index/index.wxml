@@ -1,5 +1,32 @@
-<!--index.wxml-->
- <text class="yi">
- hello,word!
- </text>
-<button>nihao</button>  
+<!-- 轮播图设置 -->
+<w-swiper list="{{banner}}"></w-swiper>
+
+<!-- 推荐列表 -->
+<w-recommend list="{{recommends.list}}" id="w-recommend" bind:imgLoad="imgLoad"></w-recommend>
+
+<!-- 展示本周流行 -->
+<view class="popular-img">
+	<image src="/assets/home/recommend_bg.jpg"></image>
+</view>
+
+<!-- 导航选项 -->
+<w-tab-control 
+list="{{tabControl}}" 
+bind:clickTab="clickTab" 
+id="w-tab-control"
+class="{{showtab?'fixed':''}}">
+</w-tab-control>
+<w-tab-control 
+list="{{tabControl}}" 
+bind:clickTab="clickTab" 
+id="w-tab-control"
+wx:if="{{showtab}}">
+</w-tab-control>
+
+<!-- 商品显示 -->
+<w-goods list="{{goods[arr[currentindex]].list}}" >
+</w-goods>
+
+<!-- 返回页面目标位置 -->
+<w-back-top wx:if="{{backTopShow}}">
+</w-back-top>

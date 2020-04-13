@@ -1,0 +1,10 @@
+<view class="contain">
+	<block wx:for="{{list}}" wx:key="index">
+		<view class="contain-item">
+			<text bind:tap="clickTab" data-index="{{index}}"
+      class="{{index==currentIndex?'active':''}}">
+			{{item}}
+			</text>
+		</view>
+	</block>
+</view>

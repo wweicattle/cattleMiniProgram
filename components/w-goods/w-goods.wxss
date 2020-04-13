@@ -1,0 +1,10 @@
+/* components/w-goods/w-goods.wxss */
+.contain{
+  margin-top: 20rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.contain-item{
+  width: 360rpx;
+}

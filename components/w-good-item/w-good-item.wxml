@@ -1,0 +1,13 @@
+<!--components/w-good-item/w-good-item.wxml-->
+<view class="item" bind:tap="clickTap">
+	<image src="{{list.show.img||list.image}}" class="image" ></image>
+	<view class="overflow">
+		<text >{{list.title}}</text>
+	</view>
+	<view class="introduce">
+		<text class="price">￥{{list.price}}</text>
+		<image src="/assets/common/favor.png" class="star"></image>
+		<text>{{list.cfav}}</text>
+	</view>
+
+</view>

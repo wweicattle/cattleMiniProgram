@@ -1,0 +1,25 @@
+/* components/w-good-item/w-good-item.wxss */
+.item{
+  position: relative;
+  text-align: center;
+  margin-bottom: 30rpx;
+  font-size: 32rpx;
+}
+.item .image{
+  width: 100%;
+}
+.item .overflow{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.item .price{
+  color: #f55777;
+  padding-right: 20rpx;
+}
+.item .star{
+  position: relative;
+  top: 6rpx;
+  width:40rpx;
+  height: 40rpx;
+}

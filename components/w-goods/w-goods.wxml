@@ -1,0 +1,6 @@
+<view class="contain">
+	<block wx:for="{{list}}" wx:key="index">
+		<w-good-item list="{{item}}" class="contain-item">
+		</w-good-item>
+	</block>
+</view>

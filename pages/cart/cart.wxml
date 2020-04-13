@@ -1,0 +1,48 @@
+<!--pages/cart/cart.wxml-->
+<block wx:for="{{cartList}}" wx:key="index">
+	<view class="contain">
+		<view class="good-icon">
+			<w-icon icon="done" color="white" type="field" 
+      class="icon {{item.select?'active':''}}" 
+      bind:tap="clickicon" data-iid="{{item.iid}}"
+      ></w-icon>
+		</view>
+		<view class="good-pho">
+			<image src="{{item.imageURL}}" class="img"></image>
+		</view>
+		<view class="price-tit">
+			<view class="tit">
+				<view class="good-name"> {{item.title}}
+				</view>
+				<view class="good-intro"> {{item.desc}}
+				</view>
+			</view>
+			<view class="price">
+				<text class="rel">￥{{item.price}}</text>
+				<text class="num">X{{item.count}}</text>
+			</view>
+		</view>
+	</view>
+</block>
+
+<!-- 全选状态 -->
+<view class="select-All">
+	<view>
+		<view class="icons">
+			<view class="good-icon">
+				<w-icon icon="done" color="#fff" type="field" class="icon {{clickAll?'active':''}}" size="{{18}}" bindtap="clickAll"></w-icon>
+        <text class="icon-name">全选:</text>
+			</view>
+		</view>
+	</view>
+	<view class="total-pri">
+		<text>总计</text>
+		<text>￥{{totalPrice}}</text>
+	</view>
+
+	<view >
+		<button size="mini" class="btn">
+			去计算({{}})
+		</button>
+	</view>
+</view>
